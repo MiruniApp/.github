@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="profile/images/miruni_word_ic.png" alt="Miruni" width="360">
+  <img src="images/miruni_word_ic.png" alt="Miruni" width="360">
 </p>
 
 <p align="center">
