@@ -1,6 +1,12 @@
-# MiruniApp
+<p align="center">
+  <img src="profile/images/miruni_word_ic.png" alt="Miruni" width="360">
+</p>
 
-**미루니 (Miruni)** — 잠금 해제 시 할 일을 알려주는 나만의 비서
+<p align="center">
+  <strong>잠금 해제 시 할 일을 알려주는 나만의 비서</strong>
+</p>
+
+---
 
 ## About
 
