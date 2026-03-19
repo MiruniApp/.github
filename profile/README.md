@@ -12,6 +12,7 @@
 | Repository | Description |
 |------------|-------------|
 | [miruni-app](https://github.com/MiruniApp/miruni-app) | Flutter 클라이언트 (Web + Mobile) |
+| [miruni-backend](https://github.com/MiruniApp/miruni-backend) | Spring Boot 백엔드 서버 (Kotlin, PostgreSQL) |
 
 ## Tech Stack
 
