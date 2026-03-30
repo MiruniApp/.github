@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://miruni.net">miruni.net</a> &nbsp;|&nbsp;
-  <a href="https://api.miruni.net/health">API Status</a>
+  <a href="https://miruni.net/status">API Status</a>
 </p>
 
 ---
