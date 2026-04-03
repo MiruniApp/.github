@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://miruni.net">miruni.net</a> &nbsp;|&nbsp;
+  <a href="https://app.miruni.net">app.miruni.net</a> &nbsp;|&nbsp;
   <a href="https://miruni.net/status">API Status</a>
 </p>
 
@@ -27,25 +28,31 @@
 |------------|-------------|
 | [miruni-app](https://github.com/MiruniApp/miruni-app) | Flutter 클라이언트 (Web + Mobile + Desktop) |
 | [miruni-backend](https://github.com/MiruniApp/miruni-backend) | Spring Boot 백엔드 (Kotlin, PostgreSQL, Redis) |
+| [miruni-admin-page](https://github.com/MiruniApp/miruni-admin-page) | React 관리자 대시보드 |
+| [miruni-landing](https://github.com/MiruniApp/miruni-landing) | 랜딩 페이지 (miruni.net) |
 
 ## Tech Stack
 
 <table>
   <tr>
     <td><b>Frontend</b></td>
-    <td>Flutter (Dart), Riverpod, GoRouter, Freezed</td>
+    <td>Flutter (Dart), Riverpod, GoRouter, Drift (SQLite), Freezed, Sentry</td>
   </tr>
   <tr>
     <td><b>Backend</b></td>
-    <td>Spring Boot (Kotlin), Spring Security, JPA, PostgreSQL, Redis</td>
+    <td>Spring Boot (Kotlin), Spring Security, JPA, PostgreSQL, Redis, Flyway, Sentry</td>
+  </tr>
+  <tr>
+    <td><b>Admin</b></td>
+    <td>React, Vite</td>
   </tr>
   <tr>
     <td><b>Auth</b></td>
-    <td>Google OAuth 2.0 (Web redirect + Mobile SDK), JWT</td>
+    <td>Google / Kakao / Naver OAuth (Web redirect + Mobile SDK), JWT</td>
   </tr>
   <tr>
     <td><b>Infra</b></td>
-    <td>Mac Mini + Docker Compose, Cloudflare (Tunnel, Pages, DNS)</td>
+    <td>Mac Mini + Docker Compose, Cloudflare (Tunnel, Pages, DNS), UptimeRobot</td>
   </tr>
   <tr>
     <td><b>CI/CD</b></td>
@@ -60,8 +67,11 @@
 - 반복 할일 (매일/매주/매월)
 - 월간 캘린더 뷰 (일정 바 + 할일 점)
 - 친구 시스템 (친구 코드, 그룹, 일정 모아보기)
-- 주간 통계 + 친구 비교 차트
-- 주간 보고서 카드
-- Google OAuth 소셜 로그인
+- 동향 잔디 (GitHub 스타일 완료 히트맵)
+- 주간 통계 + 친구 비교 차트 + 주간 보고서
+- 오프라인 지원 (Drift 로컬 DB + 동기화)
+- 소셜 로그인 (Google, Kakao, Naver)
+- 공지사항 시스템 + 관리자 대시보드
+- 에러/서버 모니터링 (Sentry + UptimeRobot)
 - 회원탈퇴 (soft delete + 재가입 복원)
 - 반응형 UI (Mobile / Desktop / Web)
