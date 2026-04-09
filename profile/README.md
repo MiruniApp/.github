@@ -18,7 +18,3 @@
 - 할 일을 미룰 때마다 횟수가 기록되고, 단계별 경고 색상으로 시각화
 - 친구의 일정/할일을 엿보고, 주간 통계를 비교
 - 반복 할일, 주간 보고서, 스트릭 시스템
-
-<p align="center">
-  <sub>Built with Flutter · Spring Boot · PostgreSQL · Cloudflare</sub>
-</p>
